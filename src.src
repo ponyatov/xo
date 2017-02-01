@@ -1,5 +1,4 @@
 # XO system
-files = [ src.src log.log py.py Makefile bat.bat ]
-touch = touch@files
-bat.bat = [ @gvim -p files ]
-
+files	= [ src.src log.log py.py Makefile bat.bat ]
+touch	= touch@files
+bat.bat	= [ @gvim -p files ]
